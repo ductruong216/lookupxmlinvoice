@@ -67,3 +67,5 @@ D:\ASPNET\Project\LookupInvoice\LookupInvoice\bin\Microsoft.Owin.Security.Micros
 D:\ASPNET\Project\LookupInvoice\LookupInvoice\obj\Debug\LookupInvoice.csprojResolveAssemblyReference.cache
 D:\ASPNET\Project\LookupInvoice\LookupInvoice\obj\Debug\LookupInvoice.dll
 D:\ASPNET\Project\LookupInvoice\LookupInvoice\obj\Debug\LookupInvoice.pdb
+D:\ASPNET\Project\LookupInvoice\LookupInvoice\bin\LookupInvoice.Domain.dll
+D:\ASPNET\Project\LookupInvoice\LookupInvoice\bin\LookupInvoice.Domain.pdb

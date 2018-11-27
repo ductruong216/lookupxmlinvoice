@@ -13,10 +13,10 @@ namespace LookupInvoice.Domain
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class COM_2300376695Entities : DbContext
+    public partial class Entities : DbContext
     {
-        public COM_2300376695Entities()
-            : base("name=COM_2300376695Entities")
+        public Entities()
+            : base("name=Entities")
         {
         }
     
@@ -30,6 +30,7 @@ namespace LookupInvoice.Domain
         public virtual DbSet<EmailDangky> EmailDangkies { get; set; }
         public virtual DbSet<GoodServicesList> GoodServicesLists { get; set; }
         public virtual DbSet<LoiChuaDongBoFTP> LoiChuaDongBoFTPs { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Chuaky> Chuakies { get; set; }
         public virtual DbSet<DulieuHoadon> DulieuHoadons { get; set; }
         public virtual DbSet<Email> Emails { get; set; }

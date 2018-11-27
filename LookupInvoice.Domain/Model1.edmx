@@ -4,9 +4,9 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.Chuaky' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.Chuaky' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Chuaky">
           <Key>
             <PropertyRef Name="Mst" />
@@ -54,7 +54,7 @@ warning 6002: The table/view '2300376695.dbo.Chuaky' does not have a primary key
           <Property Name="Ghichu" Type="nvarchar" MaxLength="200" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.DulieuHoadon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.DulieuHoadon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="DulieuHoadon">
           <Key>
             <PropertyRef Name="MsDn" />
@@ -150,7 +150,7 @@ warning 6002: The table/view '2300376695.dbo.DulieuHoadon' does not have a prima
           <Property Name="Nhanvien" Type="nvarchar" MaxLength="100" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.Email' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.Email' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Email">
           <Key>
             <PropertyRef Name="Mst" />
@@ -199,7 +199,7 @@ warning 6002: The table/view '2300376695.dbo.Email' does not have a primary key 
           <Property Name="Ghichu" Type="nvarchar" MaxLength="200" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.LichsuTBPH' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.LichsuTBPH' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="LichsuTBPH">
           <Key>
             <PropertyRef Name="MsDn" />
@@ -249,7 +249,7 @@ warning 6002: The table/view '2300376695.dbo.LichsuTBPH' does not have a primary
           <Property Name="Kiemtra" Type="nvarchar" MaxLength="100" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.Nhatkynhapkho' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.Nhatkynhapkho' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Nhatkynhapkho">
           <Key>
             <PropertyRef Name="Kyhieu" />
@@ -285,7 +285,7 @@ warning 6002: The table/view '2300376695.dbo.Nhatkynhapkho' does not have a prim
           <Property Name="Ghichu" Type="nvarchar" MaxLength="200" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.Nhatkythu' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.Nhatkythu' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Nhatkythu">
           <Key>
             <PropertyRef Name="Kyhieu" />
@@ -309,7 +309,7 @@ warning 6002: The table/view '2300376695.dbo.Nhatkythu' does not have a primary 
           <Property Name="Ghichu" Type="nvarchar" MaxLength="100" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.PathFiles' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.PathFiles' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="PathFiles">
           <Key>
             <PropertyRef Name="Mst" />
@@ -333,7 +333,7 @@ warning 6002: The table/view '2300376695.dbo.PathFiles' does not have a primary 
           <Property Name="Kiemtra" Type="nvarchar" MaxLength="100" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.RESETHoadon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.RESETHoadon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="RESETHoadon">
           <Key>
             <PropertyRef Name="Mst" />
@@ -353,7 +353,7 @@ warning 6002: The table/view '2300376695.dbo.RESETHoadon' does not have a primar
           <Property Name="Ghichu" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.SyncInvoice' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.SyncInvoice' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SyncInvoice">
           <Key>
             <PropertyRef Name="Mst" />
@@ -368,8 +368,18 @@ warning 6002: The table/view '2300376695.dbo.SyncInvoice' does not have a primar
           <Property Name="FileName" Type="nvarchar" MaxLength="500" Nullable="false" />
           <Property Name="Note" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view '2300243582.dbo.TaikhoanDN' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="TaikhoanDN">
           <Key>
             <PropertyRef Name="Stt" />
@@ -412,6 +422,7 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
           <EntitySet Name="EmailDangky" EntityType="Self.EmailDangky" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="GoodServicesList" EntityType="Self.GoodServicesList" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="LoiChuaDongBoFTP" EntityType="Self.LoiChuaDongBoFTP" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Chuaky" EntityType="Self.Chuaky" store:Type="Tables" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [Chuaky].[Mst] AS [Mst], 
@@ -587,78 +598,109 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <End Role="Nhatkynhapkho" EntitySet="Nhatkynhapkho" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true" >
+          <EntitySet Name="CustomerLists" EntityType="Model.CustomerList" />
+          <EntitySet Name="DanhmucNCCs" EntityType="Model.DanhmucNCC" />
+          <EntitySet Name="EmailDangkies" EntityType="Model.EmailDangky" />
+          <EntitySet Name="GoodServicesLists" EntityType="Model.GoodServicesList" />
+          <EntitySet Name="LoiChuaDongBoFTPs" EntityType="Model.LoiChuaDongBoFTP" />
+          <EntitySet Name="sysdiagrams" EntityType="Model.sysdiagram" />
+          <EntitySet Name="Chuakies" EntityType="Model.Chuaky" />
+          <EntitySet Name="DulieuHoadons" EntityType="Model.DulieuHoadon" />
+          <EntitySet Name="Emails" EntityType="Model.Email" />
+          <EntitySet Name="LichsuTBPHs" EntityType="Model.LichsuTBPH" />
+          <EntitySet Name="Nhatkynhapkhoes" EntityType="Model.Nhatkynhapkho" />
+          <EntitySet Name="Nhatkythus" EntityType="Model.Nhatkythu" />
+          <EntitySet Name="PathFiles" EntityType="Model.PathFile" />
+          <EntitySet Name="RESETHoadons" EntityType="Model.RESETHoadon" />
+          <EntitySet Name="SyncInvoices" EntityType="Model.SyncInvoice" />
+          <EntitySet Name="TaikhoanDNs" EntityType="Model.TaikhoanDN" />
+          <AssociationSet Name="FK_Nhatkynhapkho_DanhmucNCC" Association="Model.FK_Nhatkynhapkho_DanhmucNCC">
+            <End Role="DanhmucNCC" EntitySet="DanhmucNCCs" />
+            <End Role="Nhatkynhapkho" EntitySet="Nhatkynhapkhoes" />
+          </AssociationSet>
+        </EntityContainer>
         <EntityType Name="CustomerList">
           <Key>
             <PropertyRef Name="MaKH" />
           </Key>
-          <Property Name="MsDN" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MaKH" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenKH" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Diachi" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Mst" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Nguoimua" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Dienthoai" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Stk" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TaiNH" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Sdphaithu" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Sdphaitra" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MsDN" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="MaKH" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="TenKH" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Diachi" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nguoimua" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Dienthoai" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Stk" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TaiNH" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Sdphaithu" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Sdphaitra" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="DanhmucNCC">
           <Key>
             <PropertyRef Name="MaNCC" />
           </Key>
-          <Property Name="MaNCC" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenNCC" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MstNCC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="NoDauky" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <NavigationProperty Name="Nhatkynhapkhoes" Relationship="Self.FK_Nhatkynhapkho_DanhmucNCC" FromRole="DanhmucNCC" ToRole="Nhatkynhapkho" />
+          <Property Name="MaNCC" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="TenNCC" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="MstNCC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NoDauky" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Nhatkynhapkhoes" Relationship="Model.FK_Nhatkynhapkho_DanhmucNCC" FromRole="DanhmucNCC" ToRole="Nhatkynhapkho" />
         </EntityType>
         <EntityType Name="EmailDangky">
           <Key>
             <PropertyRef Name="Mst" />
           </Key>
-          <Property Name="Mst" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="EmailGui" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MatKhau" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="smtpServerPort" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="smtpServerHost" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmailGui" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="MatKhau" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="smtpServerPort" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="smtpServerHost" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="GoodServicesList">
           <Key>
             <PropertyRef Name="MaHHDV" />
           </Key>
-          <Property Name="MsDN" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MaHHDV" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenHHDV" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Dvt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MsDN" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="MaHHDV" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="TenHHDV" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Dvt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Dongiamua" Type="Double" Nullable="false" />
           <Property Name="Dongiaban" Type="Double" Nullable="false" />
           <Property Name="Sldk" Type="Double" Nullable="false" />
-          <Property Name="TTdk" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="TTdk" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
           <Property Name="Tyleck" Type="Int32" Nullable="false" />
-          <Property Name="Baohanh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Baohanh" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="LoiChuaDongBoFTP">
           <Key>
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Mst" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Duongdan" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenFile" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Duongdan" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="TenFile" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="Tenforder" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="Ghichu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="Kiemtra" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
         <EntityType Name="Chuaky">
           <Key>
@@ -670,13 +712,13 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="TenFile" />
             <PropertyRef Name="Kiemtra" />
           </Key>
-          <Property Name="Mst" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Kyhieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Sohoadon" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Kyhieu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sohoadon" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
           <Property Name="Ngayhoadon" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="Duongdan" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenFile" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Kiemtra" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Duongdan" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="TenFile" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Kiemtra" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="DulieuHoadon">
           <Key>
@@ -726,51 +768,51 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="TienthueNhap" />
             <PropertyRef Name="Nhanvien" />
           </Key>
-          <Property Name="MsDn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Mauso" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Kyhieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Sohoadon" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="Mabaomat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MsDn" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Mauso" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Kyhieu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sohoadon" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Mabaomat" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Ngayhoadon" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="MaKH" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenKH" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MstKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Diachi" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Hotennguoimua" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Sotaikhoan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TaiNganhang" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="SdtKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="EmailKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="HTthanhtoan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Mahang" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Tenhang" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Dvt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Soluong" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Dongia" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Thanhtien" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Thuesuat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TienthueGTGT" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="MaKH" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="TenKH" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="MstKH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Diachi" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Hotennguoimua" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sotaikhoan" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TaiNganhang" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="SdtKH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmailKH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HTthanhtoan" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Mahang" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Tenhang" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Dvt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Soluong" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Dongia" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Thanhtien" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Thuesuat" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TienthueGTGT" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
           <Property Name="TyleCK" Type="Int32" Nullable="false" />
-          <Property Name="TienChietkhau" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="HoadonThaythe" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="HoadonDieuchinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="HoadonHuy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="HoadonChuyendoi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="NgayTTDCCD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Tinhtrang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Lydo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Chinhanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="550" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="KHTra" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="TraNCC" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Diengiai" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TkNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TkCo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="SLNhap" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="DGNhap" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="TTNhap" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="TienthueNhap" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Nhanvien" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TienChietkhau" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="HoadonThaythe" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HoadonDieuchinh" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HoadonHuy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HoadonChuyendoi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NgayTTDCCD" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tinhtrang" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Lydo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Chinhanh" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="KHTra" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="TraNCC" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Diengiai" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="TkNo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TkCo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SLNhap" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="DGNhap" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="TTNhap" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="TienthueNhap" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Nhanvien" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Email">
           <Key>
@@ -783,14 +825,14 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="Noidung" />
             <PropertyRef Name="Ghichu" />
           </Key>
-          <Property Name="Mst" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="EmailNguoinhan" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Cc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="DuongdanFile" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenFile" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Tieude" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Noidung" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmailNguoinhan" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Cc" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DuongdanFile" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="TenFile" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Tieude" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Noidung" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="LichsuTBPH">
           <Key>
@@ -811,22 +853,22 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="NgayTBPH" />
             <PropertyRef Name="NguoiDDPL" />
           </Key>
-          <Property Name="MsDn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MaloaiHD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenloaiHD" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Mauso" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Kyhieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Soluong" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="Tuso" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="Denso" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="MsDn" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MaloaiHD" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TenloaiHD" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Mauso" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Kyhieu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Soluong" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Tuso" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Denso" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
           <Property Name="NgaybatdauSD" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="TenDN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Mst" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenDVCQ" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MstDVCQ" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenCQThue" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenDN" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TenDVCQ" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="MstDVCQ" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TenCQThue" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="NgayTBPH" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="NguoiDDPL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NguoiDDPL" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Nhatkynhapkho">
           <Key>
@@ -846,22 +888,22 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="SotientraNCC" />
             <PropertyRef Name="Ghichu" />
           </Key>
-          <Property Name="Kyhieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Sohoadon" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="Kyhieu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sohoadon" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
           <Property Name="Ngay" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="Httt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MaNCC" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenNCC" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Mahang" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Tenhang" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Dvt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="SLNhap" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="DGNhap" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="TTNhap" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Diengiai" Type="String" MaxLength="200" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="SotientraNCC" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <NavigationProperty Name="DanhmucNCC" Relationship="Self.FK_Nhatkynhapkho_DanhmucNCC" FromRole="Nhatkynhapkho" ToRole="DanhmucNCC" />
+          <Property Name="Httt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MaNCC" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="TenNCC" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Mahang" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Tenhang" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Dvt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SLNhap" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="DGNhap" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="TTNhap" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Diengiai" Type="String" Nullable="false" MaxLength="200" FixedLength="true" Unicode="true" />
+          <Property Name="SotientraNCC" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="DanhmucNCC" Relationship="Model.FK_Nhatkynhapkho_DanhmucNCC" FromRole="Nhatkynhapkho" ToRole="DanhmucNCC" />
         </EntityType>
         <EntityType Name="Nhatkythu">
           <Key>
@@ -875,15 +917,15 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="Sotienthu" />
             <PropertyRef Name="Ghichu" />
           </Key>
-          <Property Name="Kyhieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Sohoadon" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="Kyhieu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sohoadon" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
           <Property Name="Ngaythu" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="Httt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="MaKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenKH" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Diengiai" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Sotienthu" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Httt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MaKH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TenKH" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Diengiai" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Sotienthu" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="PathFile">
           <Key>
@@ -897,15 +939,15 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="Ghichu" />
             <PropertyRef Name="Kiemtra" />
           </Key>
-          <Property Name="Mst" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Kyhieu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Sohoadon" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Kyhieu" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Sohoadon" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
           <Property Name="Ngayhoadon" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="Duongdan" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Tenfile" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Tenforder" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Kiemtra" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Duongdan" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Tenfile" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Tenforder" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Kiemtra" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="RESETHoadon">
           <Key>
@@ -917,13 +959,13 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="DuongdanFile" />
             <PropertyRef Name="Ghichu" />
           </Key>
-          <Property Name="Mst" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="KyHieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="SoHD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="KyHieu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SoHD" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Ngay" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="TenFile" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="DuongdanFile" Type="String" MaxLength="500" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="Ghichu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenFile" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="DuongdanFile" Type="String" Nullable="false" MaxLength="500" FixedLength="true" Unicode="true" />
+          <Property Name="Ghichu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="SyncInvoice">
           <Key>
@@ -933,11 +975,11 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="FileName" />
             <PropertyRef Name="Note" />
           </Key>
-          <Property Name="Mst" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Forder" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="PathInvoice" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="FileName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Note" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mst" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Forder" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="PathInvoice" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="FileName" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Note" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="TaikhoanDN">
           <Key>
@@ -952,20 +994,20 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             <PropertyRef Name="GhiChu" />
           </Key>
           <Property Name="Stt" Type="Int32" Nullable="false" />
-          <Property Name="Masothue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Matkhau" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TenDN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Masothue" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Matkhau" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TenDN" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="SoHopDong" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="NgayKy" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="GoiHoaDon" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="KyHieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="GhiChu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GoiHoaDon" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="KyHieu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="GhiChu" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
         </EntityType>
         <Association Name="FK_Nhatkynhapkho_DanhmucNCC">
-          <End Role="DanhmucNCC" Type="Self.DanhmucNCC" Multiplicity="1">
+          <End Type="Model.DanhmucNCC" Role="DanhmucNCC" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="Nhatkynhapkho" Type="Self.Nhatkynhapkho" Multiplicity="*" />
+          <End Type="Model.Nhatkynhapkho" Role="Nhatkynhapkho" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="DanhmucNCC">
               <PropertyRef Name="MaNCC" />
@@ -975,292 +1017,282 @@ warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="COM_2300376695Entities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="CustomerLists" EntityType="Self.CustomerList" />
-          <EntitySet Name="DanhmucNCCs" EntityType="Self.DanhmucNCC" />
-          <EntitySet Name="EmailDangkies" EntityType="Self.EmailDangky" />
-          <EntitySet Name="GoodServicesLists" EntityType="Self.GoodServicesList" />
-          <EntitySet Name="LoiChuaDongBoFTPs" EntityType="Self.LoiChuaDongBoFTP" />
-          <EntitySet Name="Chuakies" EntityType="Self.Chuaky" />
-          <EntitySet Name="DulieuHoadons" EntityType="Self.DulieuHoadon" />
-          <EntitySet Name="Emails" EntityType="Self.Email" />
-          <EntitySet Name="LichsuTBPHs" EntityType="Self.LichsuTBPH" />
-          <EntitySet Name="Nhatkynhapkhoes" EntityType="Self.Nhatkynhapkho" />
-          <EntitySet Name="Nhatkythus" EntityType="Self.Nhatkythu" />
-          <EntitySet Name="PathFiles" EntityType="Self.PathFile" />
-          <EntitySet Name="RESETHoadons" EntityType="Self.RESETHoadon" />
-          <EntitySet Name="SyncInvoices" EntityType="Self.SyncInvoice" />
-          <EntitySet Name="TaikhoanDNs" EntityType="Self.TaikhoanDN" />
-          <AssociationSet Name="FK_Nhatkynhapkho_DanhmucNCC" Association="Self.FK_Nhatkynhapkho_DanhmucNCC">
-            <End Role="DanhmucNCC" EntitySet="DanhmucNCCs" />
-            <End Role="Nhatkynhapkho" EntitySet="Nhatkynhapkhoes" />
-          </AssociationSet>
-        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="COM_2300376695Entities">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities" >
           <EntitySetMapping Name="CustomerLists">
             <EntityTypeMapping TypeName="Model.CustomerList">
               <MappingFragment StoreEntitySet="CustomerList">
-                <ScalarProperty Name="MsDN" ColumnName="MsDN" />
-                <ScalarProperty Name="MaKH" ColumnName="MaKH" />
-                <ScalarProperty Name="TenKH" ColumnName="TenKH" />
-                <ScalarProperty Name="Diachi" ColumnName="Diachi" />
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="Nguoimua" ColumnName="Nguoimua" />
-                <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Stk" ColumnName="Stk" />
-                <ScalarProperty Name="TaiNH" ColumnName="TaiNH" />
-                <ScalarProperty Name="Sdphaithu" ColumnName="Sdphaithu" />
-                <ScalarProperty Name="Sdphaitra" ColumnName="Sdphaitra" />
                 <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="Sdphaitra" ColumnName="Sdphaitra" />
+                <ScalarProperty Name="Sdphaithu" ColumnName="Sdphaithu" />
+                <ScalarProperty Name="TaiNH" ColumnName="TaiNH" />
+                <ScalarProperty Name="Stk" ColumnName="Stk" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
+                <ScalarProperty Name="Nguoimua" ColumnName="Nguoimua" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
+                <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+                <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+                <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+                <ScalarProperty Name="MsDN" ColumnName="MsDN" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="DanhmucNCCs">
             <EntityTypeMapping TypeName="Model.DanhmucNCC">
               <MappingFragment StoreEntitySet="DanhmucNCC">
-                <ScalarProperty Name="MaNCC" ColumnName="MaNCC" />
-                <ScalarProperty Name="TenNCC" ColumnName="TenNCC" />
-                <ScalarProperty Name="MstNCC" ColumnName="MstNCC" />
-                <ScalarProperty Name="NoDauky" ColumnName="NoDauky" />
                 <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="NoDauky" ColumnName="NoDauky" />
+                <ScalarProperty Name="MstNCC" ColumnName="MstNCC" />
+                <ScalarProperty Name="TenNCC" ColumnName="TenNCC" />
+                <ScalarProperty Name="MaNCC" ColumnName="MaNCC" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EmailDangkies">
             <EntityTypeMapping TypeName="Model.EmailDangky">
               <MappingFragment StoreEntitySet="EmailDangky">
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="EmailGui" ColumnName="EmailGui" />
-                <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
-                <ScalarProperty Name="smtpServerPort" ColumnName="smtpServerPort" />
-                <ScalarProperty Name="smtpServerHost" ColumnName="smtpServerHost" />
                 <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="smtpServerHost" ColumnName="smtpServerHost" />
+                <ScalarProperty Name="smtpServerPort" ColumnName="smtpServerPort" />
+                <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+                <ScalarProperty Name="EmailGui" ColumnName="EmailGui" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="GoodServicesLists">
             <EntityTypeMapping TypeName="Model.GoodServicesList">
               <MappingFragment StoreEntitySet="GoodServicesList">
-                <ScalarProperty Name="MsDN" ColumnName="MsDN" />
-                <ScalarProperty Name="MaHHDV" ColumnName="MaHHDV" />
-                <ScalarProperty Name="TenHHDV" ColumnName="TenHHDV" />
-                <ScalarProperty Name="Dvt" ColumnName="Dvt" />
-                <ScalarProperty Name="Dongiamua" ColumnName="Dongiamua" />
-                <ScalarProperty Name="Dongiaban" ColumnName="Dongiaban" />
-                <ScalarProperty Name="Sldk" ColumnName="Sldk" />
-                <ScalarProperty Name="TTdk" ColumnName="TTdk" />
-                <ScalarProperty Name="Tyleck" ColumnName="Tyleck" />
-                <ScalarProperty Name="Baohanh" ColumnName="Baohanh" />
                 <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="Baohanh" ColumnName="Baohanh" />
+                <ScalarProperty Name="Tyleck" ColumnName="Tyleck" />
+                <ScalarProperty Name="TTdk" ColumnName="TTdk" />
+                <ScalarProperty Name="Sldk" ColumnName="Sldk" />
+                <ScalarProperty Name="Dongiaban" ColumnName="Dongiaban" />
+                <ScalarProperty Name="Dongiamua" ColumnName="Dongiamua" />
+                <ScalarProperty Name="Dvt" ColumnName="Dvt" />
+                <ScalarProperty Name="TenHHDV" ColumnName="TenHHDV" />
+                <ScalarProperty Name="MaHHDV" ColumnName="MaHHDV" />
+                <ScalarProperty Name="MsDN" ColumnName="MsDN" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="LoiChuaDongBoFTPs">
             <EntityTypeMapping TypeName="Model.LoiChuaDongBoFTP">
               <MappingFragment StoreEntitySet="LoiChuaDongBoFTP">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="Duongdan" ColumnName="Duongdan" />
-                <ScalarProperty Name="TenFile" ColumnName="TenFile" />
-                <ScalarProperty Name="Tenforder" ColumnName="Tenforder" />
-                <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
                 <ScalarProperty Name="Kiemtra" ColumnName="Kiemtra" />
+                <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="Tenforder" ColumnName="Tenforder" />
+                <ScalarProperty Name="TenFile" ColumnName="TenFile" />
+                <ScalarProperty Name="Duongdan" ColumnName="Duongdan" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="Model.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="definition" ColumnName="definition" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Chuakies">
             <EntityTypeMapping TypeName="Model.Chuaky">
               <MappingFragment StoreEntitySet="Chuaky">
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
-                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
-                <ScalarProperty Name="Ngayhoadon" ColumnName="Ngayhoadon" />
-                <ScalarProperty Name="Duongdan" ColumnName="Duongdan" />
-                <ScalarProperty Name="TenFile" ColumnName="TenFile" />
                 <ScalarProperty Name="Kiemtra" ColumnName="Kiemtra" />
+                <ScalarProperty Name="TenFile" ColumnName="TenFile" />
+                <ScalarProperty Name="Duongdan" ColumnName="Duongdan" />
+                <ScalarProperty Name="Ngayhoadon" ColumnName="Ngayhoadon" />
+                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
+                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="DulieuHoadons">
             <EntityTypeMapping TypeName="Model.DulieuHoadon">
               <MappingFragment StoreEntitySet="DulieuHoadon">
-                <ScalarProperty Name="MsDn" ColumnName="MsDn" />
-                <ScalarProperty Name="Mauso" ColumnName="Mauso" />
-                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
-                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
-                <ScalarProperty Name="Mabaomat" ColumnName="Mabaomat" />
-                <ScalarProperty Name="Ngayhoadon" ColumnName="Ngayhoadon" />
-                <ScalarProperty Name="MaKH" ColumnName="MaKH" />
-                <ScalarProperty Name="TenKH" ColumnName="TenKH" />
-                <ScalarProperty Name="MstKH" ColumnName="MstKH" />
-                <ScalarProperty Name="Diachi" ColumnName="Diachi" />
-                <ScalarProperty Name="Hotennguoimua" ColumnName="Hotennguoimua" />
-                <ScalarProperty Name="Sotaikhoan" ColumnName="Sotaikhoan" />
-                <ScalarProperty Name="TaiNganhang" ColumnName="TaiNganhang" />
-                <ScalarProperty Name="SdtKH" ColumnName="SdtKH" />
-                <ScalarProperty Name="EmailKH" ColumnName="EmailKH" />
-                <ScalarProperty Name="HTthanhtoan" ColumnName="HTthanhtoan" />
-                <ScalarProperty Name="Mahang" ColumnName="Mahang" />
-                <ScalarProperty Name="Tenhang" ColumnName="Tenhang" />
-                <ScalarProperty Name="Dvt" ColumnName="Dvt" />
-                <ScalarProperty Name="Soluong" ColumnName="Soluong" />
-                <ScalarProperty Name="Dongia" ColumnName="Dongia" />
-                <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
-                <ScalarProperty Name="Thuesuat" ColumnName="Thuesuat" />
-                <ScalarProperty Name="TienthueGTGT" ColumnName="TienthueGTGT" />
-                <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
-                <ScalarProperty Name="TienChietkhau" ColumnName="TienChietkhau" />
-                <ScalarProperty Name="HoadonThaythe" ColumnName="HoadonThaythe" />
-                <ScalarProperty Name="HoadonDieuchinh" ColumnName="HoadonDieuchinh" />
-                <ScalarProperty Name="HoadonHuy" ColumnName="HoadonHuy" />
-                <ScalarProperty Name="HoadonChuyendoi" ColumnName="HoadonChuyendoi" />
-                <ScalarProperty Name="NgayTTDCCD" ColumnName="NgayTTDCCD" />
-                <ScalarProperty Name="Tinhtrang" ColumnName="Tinhtrang" />
-                <ScalarProperty Name="Lydo" ColumnName="Lydo" />
-                <ScalarProperty Name="Chinhanh" ColumnName="Chinhanh" />
-                <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
-                <ScalarProperty Name="KHTra" ColumnName="KHTra" />
-                <ScalarProperty Name="TraNCC" ColumnName="TraNCC" />
-                <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
-                <ScalarProperty Name="TkNo" ColumnName="TkNo" />
-                <ScalarProperty Name="TkCo" ColumnName="TkCo" />
-                <ScalarProperty Name="SLNhap" ColumnName="SLNhap" />
-                <ScalarProperty Name="DGNhap" ColumnName="DGNhap" />
-                <ScalarProperty Name="TTNhap" ColumnName="TTNhap" />
-                <ScalarProperty Name="TienthueNhap" ColumnName="TienthueNhap" />
                 <ScalarProperty Name="Nhanvien" ColumnName="Nhanvien" />
+                <ScalarProperty Name="TienthueNhap" ColumnName="TienthueNhap" />
+                <ScalarProperty Name="TTNhap" ColumnName="TTNhap" />
+                <ScalarProperty Name="DGNhap" ColumnName="DGNhap" />
+                <ScalarProperty Name="SLNhap" ColumnName="SLNhap" />
+                <ScalarProperty Name="TkCo" ColumnName="TkCo" />
+                <ScalarProperty Name="TkNo" ColumnName="TkNo" />
+                <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
+                <ScalarProperty Name="TraNCC" ColumnName="TraNCC" />
+                <ScalarProperty Name="KHTra" ColumnName="KHTra" />
+                <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="Chinhanh" ColumnName="Chinhanh" />
+                <ScalarProperty Name="Lydo" ColumnName="Lydo" />
+                <ScalarProperty Name="Tinhtrang" ColumnName="Tinhtrang" />
+                <ScalarProperty Name="NgayTTDCCD" ColumnName="NgayTTDCCD" />
+                <ScalarProperty Name="HoadonChuyendoi" ColumnName="HoadonChuyendoi" />
+                <ScalarProperty Name="HoadonHuy" ColumnName="HoadonHuy" />
+                <ScalarProperty Name="HoadonDieuchinh" ColumnName="HoadonDieuchinh" />
+                <ScalarProperty Name="HoadonThaythe" ColumnName="HoadonThaythe" />
+                <ScalarProperty Name="TienChietkhau" ColumnName="TienChietkhau" />
+                <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+                <ScalarProperty Name="TienthueGTGT" ColumnName="TienthueGTGT" />
+                <ScalarProperty Name="Thuesuat" ColumnName="Thuesuat" />
+                <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+                <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+                <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+                <ScalarProperty Name="Dvt" ColumnName="Dvt" />
+                <ScalarProperty Name="Tenhang" ColumnName="Tenhang" />
+                <ScalarProperty Name="Mahang" ColumnName="Mahang" />
+                <ScalarProperty Name="HTthanhtoan" ColumnName="HTthanhtoan" />
+                <ScalarProperty Name="EmailKH" ColumnName="EmailKH" />
+                <ScalarProperty Name="SdtKH" ColumnName="SdtKH" />
+                <ScalarProperty Name="TaiNganhang" ColumnName="TaiNganhang" />
+                <ScalarProperty Name="Sotaikhoan" ColumnName="Sotaikhoan" />
+                <ScalarProperty Name="Hotennguoimua" ColumnName="Hotennguoimua" />
+                <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+                <ScalarProperty Name="MstKH" ColumnName="MstKH" />
+                <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+                <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+                <ScalarProperty Name="Ngayhoadon" ColumnName="Ngayhoadon" />
+                <ScalarProperty Name="Mabaomat" ColumnName="Mabaomat" />
+                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
+                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
+                <ScalarProperty Name="Mauso" ColumnName="Mauso" />
+                <ScalarProperty Name="MsDn" ColumnName="MsDn" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Emails">
             <EntityTypeMapping TypeName="Model.Email">
               <MappingFragment StoreEntitySet="Email">
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="EmailNguoinhan" ColumnName="EmailNguoinhan" />
-                <ScalarProperty Name="Cc" ColumnName="Cc" />
-                <ScalarProperty Name="DuongdanFile" ColumnName="DuongdanFile" />
-                <ScalarProperty Name="TenFile" ColumnName="TenFile" />
-                <ScalarProperty Name="Tieude" ColumnName="Tieude" />
-                <ScalarProperty Name="Noidung" ColumnName="Noidung" />
                 <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="Noidung" ColumnName="Noidung" />
+                <ScalarProperty Name="Tieude" ColumnName="Tieude" />
+                <ScalarProperty Name="TenFile" ColumnName="TenFile" />
+                <ScalarProperty Name="DuongdanFile" ColumnName="DuongdanFile" />
+                <ScalarProperty Name="Cc" ColumnName="Cc" />
+                <ScalarProperty Name="EmailNguoinhan" ColumnName="EmailNguoinhan" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="LichsuTBPHs">
             <EntityTypeMapping TypeName="Model.LichsuTBPH">
               <MappingFragment StoreEntitySet="LichsuTBPH">
-                <ScalarProperty Name="MsDn" ColumnName="MsDn" />
-                <ScalarProperty Name="MaloaiHD" ColumnName="MaloaiHD" />
-                <ScalarProperty Name="TenloaiHD" ColumnName="TenloaiHD" />
-                <ScalarProperty Name="Mauso" ColumnName="Mauso" />
-                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
-                <ScalarProperty Name="Soluong" ColumnName="Soluong" />
-                <ScalarProperty Name="Tuso" ColumnName="Tuso" />
-                <ScalarProperty Name="Denso" ColumnName="Denso" />
-                <ScalarProperty Name="NgaybatdauSD" ColumnName="NgaybatdauSD" />
-                <ScalarProperty Name="TenDN" ColumnName="TenDN" />
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="TenDVCQ" ColumnName="TenDVCQ" />
-                <ScalarProperty Name="MstDVCQ" ColumnName="MstDVCQ" />
-                <ScalarProperty Name="TenCQThue" ColumnName="TenCQThue" />
-                <ScalarProperty Name="NgayTBPH" ColumnName="NgayTBPH" />
                 <ScalarProperty Name="NguoiDDPL" ColumnName="NguoiDDPL" />
+                <ScalarProperty Name="NgayTBPH" ColumnName="NgayTBPH" />
+                <ScalarProperty Name="TenCQThue" ColumnName="TenCQThue" />
+                <ScalarProperty Name="MstDVCQ" ColumnName="MstDVCQ" />
+                <ScalarProperty Name="TenDVCQ" ColumnName="TenDVCQ" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
+                <ScalarProperty Name="TenDN" ColumnName="TenDN" />
+                <ScalarProperty Name="NgaybatdauSD" ColumnName="NgaybatdauSD" />
+                <ScalarProperty Name="Denso" ColumnName="Denso" />
+                <ScalarProperty Name="Tuso" ColumnName="Tuso" />
+                <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
+                <ScalarProperty Name="Mauso" ColumnName="Mauso" />
+                <ScalarProperty Name="TenloaiHD" ColumnName="TenloaiHD" />
+                <ScalarProperty Name="MaloaiHD" ColumnName="MaloaiHD" />
+                <ScalarProperty Name="MsDn" ColumnName="MsDn" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Nhatkynhapkhoes">
             <EntityTypeMapping TypeName="Model.Nhatkynhapkho">
               <MappingFragment StoreEntitySet="Nhatkynhapkho">
-                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
-                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
-                <ScalarProperty Name="Ngay" ColumnName="Ngay" />
-                <ScalarProperty Name="Httt" ColumnName="Httt" />
-                <ScalarProperty Name="MaNCC" ColumnName="MaNCC" />
-                <ScalarProperty Name="TenNCC" ColumnName="TenNCC" />
-                <ScalarProperty Name="Mahang" ColumnName="Mahang" />
-                <ScalarProperty Name="Tenhang" ColumnName="Tenhang" />
-                <ScalarProperty Name="Dvt" ColumnName="Dvt" />
-                <ScalarProperty Name="SLNhap" ColumnName="SLNhap" />
-                <ScalarProperty Name="DGNhap" ColumnName="DGNhap" />
-                <ScalarProperty Name="TTNhap" ColumnName="TTNhap" />
-                <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
-                <ScalarProperty Name="SotientraNCC" ColumnName="SotientraNCC" />
                 <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="SotientraNCC" ColumnName="SotientraNCC" />
+                <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
+                <ScalarProperty Name="TTNhap" ColumnName="TTNhap" />
+                <ScalarProperty Name="DGNhap" ColumnName="DGNhap" />
+                <ScalarProperty Name="SLNhap" ColumnName="SLNhap" />
+                <ScalarProperty Name="Dvt" ColumnName="Dvt" />
+                <ScalarProperty Name="Tenhang" ColumnName="Tenhang" />
+                <ScalarProperty Name="Mahang" ColumnName="Mahang" />
+                <ScalarProperty Name="TenNCC" ColumnName="TenNCC" />
+                <ScalarProperty Name="MaNCC" ColumnName="MaNCC" />
+                <ScalarProperty Name="Httt" ColumnName="Httt" />
+                <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
+                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Nhatkythus">
             <EntityTypeMapping TypeName="Model.Nhatkythu">
               <MappingFragment StoreEntitySet="Nhatkythu">
-                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
-                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
-                <ScalarProperty Name="Ngaythu" ColumnName="Ngaythu" />
-                <ScalarProperty Name="Httt" ColumnName="Httt" />
-                <ScalarProperty Name="MaKH" ColumnName="MaKH" />
-                <ScalarProperty Name="TenKH" ColumnName="TenKH" />
-                <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
-                <ScalarProperty Name="Sotienthu" ColumnName="Sotienthu" />
                 <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="Sotienthu" ColumnName="Sotienthu" />
+                <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
+                <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+                <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+                <ScalarProperty Name="Httt" ColumnName="Httt" />
+                <ScalarProperty Name="Ngaythu" ColumnName="Ngaythu" />
+                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
+                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PathFiles">
             <EntityTypeMapping TypeName="Model.PathFile">
               <MappingFragment StoreEntitySet="PathFiles">
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
-                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
-                <ScalarProperty Name="Ngayhoadon" ColumnName="Ngayhoadon" />
-                <ScalarProperty Name="Duongdan" ColumnName="Duongdan" />
-                <ScalarProperty Name="Tenfile" ColumnName="Tenfile" />
-                <ScalarProperty Name="Tenforder" ColumnName="Tenforder" />
-                <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
                 <ScalarProperty Name="Kiemtra" ColumnName="Kiemtra" />
+                <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="Tenforder" ColumnName="Tenforder" />
+                <ScalarProperty Name="Tenfile" ColumnName="Tenfile" />
+                <ScalarProperty Name="Duongdan" ColumnName="Duongdan" />
+                <ScalarProperty Name="Ngayhoadon" ColumnName="Ngayhoadon" />
+                <ScalarProperty Name="Sohoadon" ColumnName="Sohoadon" />
+                <ScalarProperty Name="Kyhieu" ColumnName="Kyhieu" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="RESETHoadons">
             <EntityTypeMapping TypeName="Model.RESETHoadon">
               <MappingFragment StoreEntitySet="RESETHoadon">
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="KyHieu" ColumnName="KyHieu" />
-                <ScalarProperty Name="SoHD" ColumnName="SoHD" />
-                <ScalarProperty Name="Ngay" ColumnName="Ngay" />
-                <ScalarProperty Name="TenFile" ColumnName="TenFile" />
-                <ScalarProperty Name="DuongdanFile" ColumnName="DuongdanFile" />
                 <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+                <ScalarProperty Name="DuongdanFile" ColumnName="DuongdanFile" />
+                <ScalarProperty Name="TenFile" ColumnName="TenFile" />
+                <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+                <ScalarProperty Name="SoHD" ColumnName="SoHD" />
+                <ScalarProperty Name="KyHieu" ColumnName="KyHieu" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="SyncInvoices">
             <EntityTypeMapping TypeName="Model.SyncInvoice">
               <MappingFragment StoreEntitySet="SyncInvoice">
-                <ScalarProperty Name="Mst" ColumnName="Mst" />
-                <ScalarProperty Name="Forder" ColumnName="Forder" />
-                <ScalarProperty Name="PathInvoice" ColumnName="PathInvoice" />
-                <ScalarProperty Name="FileName" ColumnName="FileName" />
                 <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="PathInvoice" ColumnName="PathInvoice" />
+                <ScalarProperty Name="Forder" ColumnName="Forder" />
+                <ScalarProperty Name="Mst" ColumnName="Mst" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TaikhoanDNs">
             <EntityTypeMapping TypeName="Model.TaikhoanDN">
               <MappingFragment StoreEntitySet="TaikhoanDN">
-                <ScalarProperty Name="Stt" ColumnName="Stt" />
-                <ScalarProperty Name="Masothue" ColumnName="Masothue" />
-                <ScalarProperty Name="Matkhau" ColumnName="Matkhau" />
-                <ScalarProperty Name="TenDN" ColumnName="TenDN" />
-                <ScalarProperty Name="SoHopDong" ColumnName="SoHopDong" />
-                <ScalarProperty Name="NgayKy" ColumnName="NgayKy" />
-                <ScalarProperty Name="GoiHoaDon" ColumnName="GoiHoaDon" />
-                <ScalarProperty Name="KyHieu" ColumnName="KyHieu" />
                 <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+                <ScalarProperty Name="KyHieu" ColumnName="KyHieu" />
+                <ScalarProperty Name="GoiHoaDon" ColumnName="GoiHoaDon" />
+                <ScalarProperty Name="NgayKy" ColumnName="NgayKy" />
+                <ScalarProperty Name="SoHopDong" ColumnName="SoHopDong" />
+                <ScalarProperty Name="TenDN" ColumnName="TenDN" />
+                <ScalarProperty Name="Matkhau" ColumnName="Matkhau" />
+                <ScalarProperty Name="Masothue" ColumnName="Masothue" />
+                <ScalarProperty Name="Stt" ColumnName="Stt" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

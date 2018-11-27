@@ -1,0 +1,10 @@
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\bin\Debug\LookupInvoice.Domain.dll.config
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\bin\Debug\LookupInvoice.Domain.dll
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\bin\Debug\LookupInvoice.Domain.pdb
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\bin\Debug\EntityFramework.dll
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\bin\Debug\EntityFramework.xml
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\obj\Debug\LookupInvoice.Domain.csprojResolveAssemblyReference.cache
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\obj\Debug\LookupInvoice.Domain.dll
+D:\ASPNET\Project\LookupInvoice\LookupInvoice.Domain\obj\Debug\LookupInvoice.Domain.pdb

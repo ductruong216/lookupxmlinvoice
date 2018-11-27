@@ -1,19 +1,19 @@
-﻿using LookupInvoice.Domain.Infrastructure.Abstract;
+﻿using System;
+using LookupInvoice.Domain.Infrastructure.Abstract;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System;
 
 namespace LookupInvoice.Domain.Infrastructure.Implementation
 {
     public class BaseRepository<T> : IRepository<T> where T : class
     {
-        private COM_2300376695Entities _dbContext;
+        private Entities _dbContext;
         private readonly IDbSet<T> _dbSet;
         public IDbSet<T> DbSet => _dbSet;
         protected IDbFactory DbFactory { get; set; }
 
-        protected COM_2300376695Entities DbContext
+        protected Entities DbContext
         {
             get { return _dbContext ?? (_dbContext = DbFactory.Init()); }
         }
@@ -26,7 +26,16 @@ namespace LookupInvoice.Domain.Infrastructure.Implementation
 
         public IList<T> GetAll()
         {
-            return _dbSet.ToList();
+
+            try
+            {
+                return _dbSet.ToList();
+
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
         public T GetSingleById(object id)

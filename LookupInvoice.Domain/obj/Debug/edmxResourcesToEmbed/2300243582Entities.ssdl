@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.Chuaky' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Chuaky">
+    <Key>
+      <PropertyRef Name="Mst" />
+      <PropertyRef Name="Kyhieu" />
+      <PropertyRef Name="Sohoadon" />
+      <PropertyRef Name="Ngayhoadon" />
+      <PropertyRef Name="Duongdan" />
+      <PropertyRef Name="TenFile" />
+      <PropertyRef Name="Kiemtra" />
+    </Key>
+    <Property Name="Mst" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Kyhieu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sohoadon" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Ngayhoadon" Type="date" Nullable="false" />
+    <Property Name="Duongdan" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="TenFile" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Kiemtra" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CustomerList">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MsDN" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="MaKH" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="TenKH" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Mst" Type="ntext" Nullable="false" />
+    <Property Name="Nguoimua" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Dienthoai" Type="ntext" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Stk" Type="ntext" Nullable="false" />
+    <Property Name="TaiNH" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Sdphaithu" Type="money" Nullable="false" />
+    <Property Name="Sdphaitra" Type="money" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DanhmucNCC">
+    <Key>
+      <PropertyRef Name="MaNCC" />
+    </Key>
+    <Property Name="MaNCC" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="TenNCC" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="MstNCC" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NoDauky" Type="money" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.DulieuHoadon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="DulieuHoadon">
+    <Key>
+      <PropertyRef Name="MsDn" />
+      <PropertyRef Name="Mauso" />
+      <PropertyRef Name="Kyhieu" />
+      <PropertyRef Name="Sohoadon" />
+      <PropertyRef Name="Mabaomat" />
+      <PropertyRef Name="Ngayhoadon" />
+      <PropertyRef Name="MaKH" />
+      <PropertyRef Name="TenKH" />
+      <PropertyRef Name="MstKH" />
+      <PropertyRef Name="Diachi" />
+      <PropertyRef Name="Hotennguoimua" />
+      <PropertyRef Name="Sotaikhoan" />
+      <PropertyRef Name="TaiNganhang" />
+      <PropertyRef Name="SdtKH" />
+      <PropertyRef Name="EmailKH" />
+      <PropertyRef Name="HTthanhtoan" />
+      <PropertyRef Name="Mahang" />
+      <PropertyRef Name="Tenhang" />
+      <PropertyRef Name="Dvt" />
+      <PropertyRef Name="Soluong" />
+      <PropertyRef Name="Dongia" />
+      <PropertyRef Name="Thanhtien" />
+      <PropertyRef Name="Thuesuat" />
+      <PropertyRef Name="TienthueGTGT" />
+      <PropertyRef Name="TyleCK" />
+      <PropertyRef Name="TienChietkhau" />
+      <PropertyRef Name="HoadonThaythe" />
+      <PropertyRef Name="HoadonDieuchinh" />
+      <PropertyRef Name="HoadonHuy" />
+      <PropertyRef Name="HoadonChuyendoi" />
+      <PropertyRef Name="NgayTTDCCD" />
+      <PropertyRef Name="Tinhtrang" />
+      <PropertyRef Name="Lydo" />
+      <PropertyRef Name="Chinhanh" />
+      <PropertyRef Name="Ghichu" />
+      <PropertyRef Name="KHTra" />
+      <PropertyRef Name="TraNCC" />
+      <PropertyRef Name="Diengiai" />
+      <PropertyRef Name="TkNo" />
+      <PropertyRef Name="TkCo" />
+      <PropertyRef Name="SLNhap" />
+      <PropertyRef Name="DGNhap" />
+      <PropertyRef Name="TTNhap" />
+      <PropertyRef Name="TienthueNhap" />
+      <PropertyRef Name="Nhanvien" />
+    </Key>
+    <Property Name="MsDn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mauso" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Kyhieu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sohoadon" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Mabaomat" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ngayhoadon" Type="date" Nullable="false" />
+    <Property Name="MaKH" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="TenKH" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="MstKH" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Hotennguoimua" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sotaikhoan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TaiNganhang" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="SdtKH" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmailKH" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HTthanhtoan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mahang" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Tenhang" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Dvt" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Soluong" Type="money" Nullable="false" />
+    <Property Name="Dongia" Type="money" Nullable="false" />
+    <Property Name="Thanhtien" Type="money" Nullable="false" />
+    <Property Name="Thuesuat" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TienthueGTGT" Type="money" Nullable="false" />
+    <Property Name="TyleCK" Type="int" Nullable="false" />
+    <Property Name="TienChietkhau" Type="money" Nullable="false" />
+    <Property Name="HoadonThaythe" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HoadonDieuchinh" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HoadonHuy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HoadonChuyendoi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NgayTTDCCD" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tinhtrang" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lydo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Chinhanh" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="550" Nullable="false" />
+    <Property Name="KHTra" Type="money" Nullable="false" />
+    <Property Name="TraNCC" Type="money" Nullable="false" />
+    <Property Name="Diengiai" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="TkNo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TkCo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SLNhap" Type="money" Nullable="false" />
+    <Property Name="DGNhap" Type="money" Nullable="false" />
+    <Property Name="TTNhap" Type="money" Nullable="false" />
+    <Property Name="TienthueNhap" Type="money" Nullable="false" />
+    <Property Name="Nhanvien" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.Email' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Email">
+    <Key>
+      <PropertyRef Name="Mst" />
+      <PropertyRef Name="EmailNguoinhan" />
+      <PropertyRef Name="Cc" />
+      <PropertyRef Name="DuongdanFile" />
+      <PropertyRef Name="TenFile" />
+      <PropertyRef Name="Tieude" />
+      <PropertyRef Name="Noidung" />
+      <PropertyRef Name="Ghichu" />
+    </Key>
+    <Property Name="Mst" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmailNguoinhan" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Cc" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="DuongdanFile" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="TenFile" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Tieude" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Noidung" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmailDangky">
+    <Key>
+      <PropertyRef Name="Mst" />
+    </Key>
+    <Property Name="Mst" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmailGui" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="MatKhau" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="smtpServerPort" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="smtpServerHost" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GoodServicesList">
+    <Key>
+      <PropertyRef Name="MaHHDV" />
+    </Key>
+    <Property Name="MsDN" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="MaHHDV" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="TenHHDV" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Dvt" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Dongiamua" Type="float" Nullable="false" />
+    <Property Name="Dongiaban" Type="float" Nullable="false" />
+    <Property Name="Sldk" Type="float" Nullable="false" />
+    <Property Name="TTdk" Type="money" Nullable="false" />
+    <Property Name="Tyleck" Type="int" Nullable="false" />
+    <Property Name="Baohanh" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.LichsuTBPH' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="LichsuTBPH">
+    <Key>
+      <PropertyRef Name="MsDn" />
+      <PropertyRef Name="MaloaiHD" />
+      <PropertyRef Name="TenloaiHD" />
+      <PropertyRef Name="Mauso" />
+      <PropertyRef Name="Kyhieu" />
+      <PropertyRef Name="Soluong" />
+      <PropertyRef Name="Tuso" />
+      <PropertyRef Name="Denso" />
+      <PropertyRef Name="NgaybatdauSD" />
+      <PropertyRef Name="TenDN" />
+      <PropertyRef Name="Mst" />
+      <PropertyRef Name="TenDVCQ" />
+      <PropertyRef Name="MstDVCQ" />
+      <PropertyRef Name="TenCQThue" />
+      <PropertyRef Name="NgayTBPH" />
+      <PropertyRef Name="NguoiDDPL" />
+    </Key>
+    <Property Name="MsDn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MaloaiHD" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenloaiHD" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Mauso" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Kyhieu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Soluong" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Tuso" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Denso" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="NgaybatdauSD" Type="date" Nullable="false" />
+    <Property Name="TenDN" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Mst" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenDVCQ" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="MstDVCQ" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenCQThue" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="NgayTBPH" Type="date" Nullable="false" />
+    <Property Name="NguoiDDPL" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoiChuaDongBoFTP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Mst" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Duongdan" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="TenFile" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Tenforder" Type="nvarchar" MaxLength="500" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="100" />
+    <Property Name="Kiemtra" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.Nhatkynhapkho' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Nhatkynhapkho">
+    <Key>
+      <PropertyRef Name="Kyhieu" />
+      <PropertyRef Name="Sohoadon" />
+      <PropertyRef Name="Ngay" />
+      <PropertyRef Name="Httt" />
+      <PropertyRef Name="MaNCC" />
+      <PropertyRef Name="TenNCC" />
+      <PropertyRef Name="Mahang" />
+      <PropertyRef Name="Tenhang" />
+      <PropertyRef Name="Dvt" />
+      <PropertyRef Name="SLNhap" />
+      <PropertyRef Name="DGNhap" />
+      <PropertyRef Name="TTNhap" />
+      <PropertyRef Name="Diengiai" />
+      <PropertyRef Name="SotientraNCC" />
+      <PropertyRef Name="Ghichu" />
+    </Key>
+    <Property Name="Kyhieu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sohoadon" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Ngay" Type="date" Nullable="false" />
+    <Property Name="Httt" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MaNCC" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="TenNCC" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Mahang" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Tenhang" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Dvt" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SLNhap" Type="money" Nullable="false" />
+    <Property Name="DGNhap" Type="money" Nullable="false" />
+    <Property Name="TTNhap" Type="money" Nullable="false" />
+    <Property Name="Diengiai" Type="nchar" MaxLength="200" Nullable="false" />
+    <Property Name="SotientraNCC" Type="money" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.Nhatkythu' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Nhatkythu">
+    <Key>
+      <PropertyRef Name="Kyhieu" />
+      <PropertyRef Name="Sohoadon" />
+      <PropertyRef Name="Ngaythu" />
+      <PropertyRef Name="Httt" />
+      <PropertyRef Name="MaKH" />
+      <PropertyRef Name="TenKH" />
+      <PropertyRef Name="Diengiai" />
+      <PropertyRef Name="Sotienthu" />
+      <PropertyRef Name="Ghichu" />
+    </Key>
+    <Property Name="Kyhieu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sohoadon" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Ngaythu" Type="date" Nullable="false" />
+    <Property Name="Httt" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MaKH" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenKH" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Diengiai" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Sotienthu" Type="money" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.PathFiles' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="PathFiles">
+    <Key>
+      <PropertyRef Name="Mst" />
+      <PropertyRef Name="Kyhieu" />
+      <PropertyRef Name="Sohoadon" />
+      <PropertyRef Name="Ngayhoadon" />
+      <PropertyRef Name="Duongdan" />
+      <PropertyRef Name="Tenfile" />
+      <PropertyRef Name="Tenforder" />
+      <PropertyRef Name="Ghichu" />
+      <PropertyRef Name="Kiemtra" />
+    </Key>
+    <Property Name="Mst" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Kyhieu" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Sohoadon" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Ngayhoadon" Type="date" Nullable="false" />
+    <Property Name="Duongdan" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Tenfile" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Tenforder" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Kiemtra" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.RESETHoadon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="RESETHoadon">
+    <Key>
+      <PropertyRef Name="Mst" />
+      <PropertyRef Name="KyHieu" />
+      <PropertyRef Name="SoHD" />
+      <PropertyRef Name="Ngay" />
+      <PropertyRef Name="TenFile" />
+      <PropertyRef Name="DuongdanFile" />
+      <PropertyRef Name="Ghichu" />
+    </Key>
+    <Property Name="Mst" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="KyHieu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SoHD" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ngay" Type="date" Nullable="false" />
+    <Property Name="TenFile" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="DuongdanFile" Type="nchar" MaxLength="500" Nullable="false" />
+    <Property Name="Ghichu" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.SyncInvoice' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="SyncInvoice">
+    <Key>
+      <PropertyRef Name="Mst" />
+      <PropertyRef Name="Forder" />
+      <PropertyRef Name="PathInvoice" />
+      <PropertyRef Name="FileName" />
+      <PropertyRef Name="Note" />
+    </Key>
+    <Property Name="Mst" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Forder" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="PathInvoice" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Note" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view '2300376695.dbo.TaikhoanDN' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TaikhoanDN">
+    <Key>
+      <PropertyRef Name="Stt" />
+      <PropertyRef Name="Masothue" />
+      <PropertyRef Name="Matkhau" />
+      <PropertyRef Name="TenDN" />
+      <PropertyRef Name="SoHopDong" />
+      <PropertyRef Name="NgayKy" />
+      <PropertyRef Name="GoiHoaDon" />
+      <PropertyRef Name="KyHieu" />
+      <PropertyRef Name="GhiChu" />
+    </Key>
+    <Property Name="Stt" Type="int" Nullable="false" />
+    <Property Name="Masothue" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Matkhau" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenDN" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="SoHopDong" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NgayKy" Type="date" Nullable="false" />
+    <Property Name="GoiHoaDon" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="KyHieu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GhiChu" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Nhatkynhapkho_DanhmucNCC">
+    <End Role="DanhmucNCC" Type="Self.DanhmucNCC" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Nhatkynhapkho" Type="Self.Nhatkynhapkho" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DanhmucNCC">
+        <PropertyRef Name="MaNCC" />
+      </Principal>
+      <Dependent Role="Nhatkynhapkho">
+        <PropertyRef Name="MaNCC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="CustomerList" EntityType="Self.CustomerList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DanhmucNCC" EntityType="Self.DanhmucNCC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmailDangky" EntityType="Self.EmailDangky" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GoodServicesList" EntityType="Self.GoodServicesList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoiChuaDongBoFTP" EntityType="Self.LoiChuaDongBoFTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Chuaky" EntityType="Self.Chuaky" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Chuaky].[Mst] AS [Mst], 
+    [Chuaky].[Kyhieu] AS [Kyhieu], 
+    [Chuaky].[Sohoadon] AS [Sohoadon], 
+    [Chuaky].[Ngayhoadon] AS [Ngayhoadon], 
+    [Chuaky].[Duongdan] AS [Duongdan], 
+    [Chuaky].[TenFile] AS [TenFile], 
+    [Chuaky].[Kiemtra] AS [Kiemtra]
+    FROM [dbo].[Chuaky] AS [Chuaky]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="DulieuHoadon" EntityType="Self.DulieuHoadon" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [DulieuHoadon].[MsDn] AS [MsDn], 
+    [DulieuHoadon].[Mauso] AS [Mauso], 
+    [DulieuHoadon].[Kyhieu] AS [Kyhieu], 
+    [DulieuHoadon].[Sohoadon] AS [Sohoadon], 
+    [DulieuHoadon].[Mabaomat] AS [Mabaomat], 
+    [DulieuHoadon].[Ngayhoadon] AS [Ngayhoadon], 
+    [DulieuHoadon].[MaKH] AS [MaKH], 
+    [DulieuHoadon].[TenKH] AS [TenKH], 
+    [DulieuHoadon].[MstKH] AS [MstKH], 
+    [DulieuHoadon].[Diachi] AS [Diachi], 
+    [DulieuHoadon].[Hotennguoimua] AS [Hotennguoimua], 
+    [DulieuHoadon].[Sotaikhoan] AS [Sotaikhoan], 
+    [DulieuHoadon].[TaiNganhang] AS [TaiNganhang], 
+    [DulieuHoadon].[SdtKH] AS [SdtKH], 
+    [DulieuHoadon].[EmailKH] AS [EmailKH], 
+    [DulieuHoadon].[HTthanhtoan] AS [HTthanhtoan], 
+    [DulieuHoadon].[Mahang] AS [Mahang], 
+    [DulieuHoadon].[Tenhang] AS [Tenhang], 
+    [DulieuHoadon].[Dvt] AS [Dvt], 
+    [DulieuHoadon].[Soluong] AS [Soluong], 
+    [DulieuHoadon].[Dongia] AS [Dongia], 
+    [DulieuHoadon].[Thanhtien] AS [Thanhtien], 
+    [DulieuHoadon].[Thuesuat] AS [Thuesuat], 
+    [DulieuHoadon].[TienthueGTGT] AS [TienthueGTGT], 
+    [DulieuHoadon].[TyleCK] AS [TyleCK], 
+    [DulieuHoadon].[TienChietkhau] AS [TienChietkhau], 
+    [DulieuHoadon].[HoadonThaythe] AS [HoadonThaythe], 
+    [DulieuHoadon].[HoadonDieuchinh] AS [HoadonDieuchinh], 
+    [DulieuHoadon].[HoadonHuy] AS [HoadonHuy], 
+    [DulieuHoadon].[HoadonChuyendoi] AS [HoadonChuyendoi], 
+    [DulieuHoadon].[NgayTTDCCD] AS [NgayTTDCCD], 
+    [DulieuHoadon].[Tinhtrang] AS [Tinhtrang], 
+    [DulieuHoadon].[Lydo] AS [Lydo], 
+    [DulieuHoadon].[Chinhanh] AS [Chinhanh], 
+    [DulieuHoadon].[Ghichu] AS [Ghichu], 
+    [DulieuHoadon].[KHTra] AS [KHTra], 
+    [DulieuHoadon].[TraNCC] AS [TraNCC], 
+    [DulieuHoadon].[Diengiai] AS [Diengiai], 
+    [DulieuHoadon].[TkNo] AS [TkNo], 
+    [DulieuHoadon].[TkCo] AS [TkCo], 
+    [DulieuHoadon].[SLNhap] AS [SLNhap], 
+    [DulieuHoadon].[DGNhap] AS [DGNhap], 
+    [DulieuHoadon].[TTNhap] AS [TTNhap], 
+    [DulieuHoadon].[TienthueNhap] AS [TienthueNhap], 
+    [DulieuHoadon].[Nhanvien] AS [Nhanvien]
+    FROM [dbo].[DulieuHoadon] AS [DulieuHoadon]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Email" EntityType="Self.Email" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Email].[Mst] AS [Mst], 
+    [Email].[EmailNguoinhan] AS [EmailNguoinhan], 
+    [Email].[Cc] AS [Cc], 
+    [Email].[DuongdanFile] AS [DuongdanFile], 
+    [Email].[TenFile] AS [TenFile], 
+    [Email].[Tieude] AS [Tieude], 
+    [Email].[Noidung] AS [Noidung], 
+    [Email].[Ghichu] AS [Ghichu]
+    FROM [dbo].[Email] AS [Email]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="LichsuTBPH" EntityType="Self.LichsuTBPH" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [LichsuTBPH].[MsDn] AS [MsDn], 
+    [LichsuTBPH].[MaloaiHD] AS [MaloaiHD], 
+    [LichsuTBPH].[TenloaiHD] AS [TenloaiHD], 
+    [LichsuTBPH].[Mauso] AS [Mauso], 
+    [LichsuTBPH].[Kyhieu] AS [Kyhieu], 
+    [LichsuTBPH].[Soluong] AS [Soluong], 
+    [LichsuTBPH].[Tuso] AS [Tuso], 
+    [LichsuTBPH].[Denso] AS [Denso], 
+    [LichsuTBPH].[NgaybatdauSD] AS [NgaybatdauSD], 
+    [LichsuTBPH].[TenDN] AS [TenDN], 
+    [LichsuTBPH].[Mst] AS [Mst], 
+    [LichsuTBPH].[TenDVCQ] AS [TenDVCQ], 
+    [LichsuTBPH].[MstDVCQ] AS [MstDVCQ], 
+    [LichsuTBPH].[TenCQThue] AS [TenCQThue], 
+    [LichsuTBPH].[NgayTBPH] AS [NgayTBPH], 
+    [LichsuTBPH].[NguoiDDPL] AS [NguoiDDPL]
+    FROM [dbo].[LichsuTBPH] AS [LichsuTBPH]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Nhatkynhapkho" EntityType="Self.Nhatkynhapkho" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Nhatkynhapkho].[Kyhieu] AS [Kyhieu], 
+    [Nhatkynhapkho].[Sohoadon] AS [Sohoadon], 
+    [Nhatkynhapkho].[Ngay] AS [Ngay], 
+    [Nhatkynhapkho].[Httt] AS [Httt], 
+    [Nhatkynhapkho].[MaNCC] AS [MaNCC], 
+    [Nhatkynhapkho].[TenNCC] AS [TenNCC], 
+    [Nhatkynhapkho].[Mahang] AS [Mahang], 
+    [Nhatkynhapkho].[Tenhang] AS [Tenhang], 
+    [Nhatkynhapkho].[Dvt] AS [Dvt], 
+    [Nhatkynhapkho].[SLNhap] AS [SLNhap], 
+    [Nhatkynhapkho].[DGNhap] AS [DGNhap], 
+    [Nhatkynhapkho].[TTNhap] AS [TTNhap], 
+    [Nhatkynhapkho].[Diengiai] AS [Diengiai], 
+    [Nhatkynhapkho].[SotientraNCC] AS [SotientraNCC], 
+    [Nhatkynhapkho].[Ghichu] AS [Ghichu]
+    FROM [dbo].[Nhatkynhapkho] AS [Nhatkynhapkho]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Nhatkythu" EntityType="Self.Nhatkythu" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Nhatkythu].[Kyhieu] AS [Kyhieu], 
+    [Nhatkythu].[Sohoadon] AS [Sohoadon], 
+    [Nhatkythu].[Ngaythu] AS [Ngaythu], 
+    [Nhatkythu].[Httt] AS [Httt], 
+    [Nhatkythu].[MaKH] AS [MaKH], 
+    [Nhatkythu].[TenKH] AS [TenKH], 
+    [Nhatkythu].[Diengiai] AS [Diengiai], 
+    [Nhatkythu].[Sotienthu] AS [Sotienthu], 
+    [Nhatkythu].[Ghichu] AS [Ghichu]
+    FROM [dbo].[Nhatkythu] AS [Nhatkythu]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PathFiles" EntityType="Self.PathFiles" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [PathFiles].[Mst] AS [Mst], 
+    [PathFiles].[Kyhieu] AS [Kyhieu], 
+    [PathFiles].[Sohoadon] AS [Sohoadon], 
+    [PathFiles].[Ngayhoadon] AS [Ngayhoadon], 
+    [PathFiles].[Duongdan] AS [Duongdan], 
+    [PathFiles].[Tenfile] AS [Tenfile], 
+    [PathFiles].[Tenforder] AS [Tenforder], 
+    [PathFiles].[Ghichu] AS [Ghichu], 
+    [PathFiles].[Kiemtra] AS [Kiemtra]
+    FROM [dbo].[PathFiles] AS [PathFiles]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="RESETHoadon" EntityType="Self.RESETHoadon" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [RESETHoadon].[Mst] AS [Mst], 
+    [RESETHoadon].[KyHieu] AS [KyHieu], 
+    [RESETHoadon].[SoHD] AS [SoHD], 
+    [RESETHoadon].[Ngay] AS [Ngay], 
+    [RESETHoadon].[TenFile] AS [TenFile], 
+    [RESETHoadon].[DuongdanFile] AS [DuongdanFile], 
+    [RESETHoadon].[Ghichu] AS [Ghichu]
+    FROM [dbo].[RESETHoadon] AS [RESETHoadon]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="SyncInvoice" EntityType="Self.SyncInvoice" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [SyncInvoice].[Mst] AS [Mst], 
+    [SyncInvoice].[Forder] AS [Forder], 
+    [SyncInvoice].[PathInvoice] AS [PathInvoice], 
+    [SyncInvoice].[FileName] AS [FileName], 
+    [SyncInvoice].[Note] AS [Note]
+    FROM [dbo].[SyncInvoice] AS [SyncInvoice]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TaikhoanDN" EntityType="Self.TaikhoanDN" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TaikhoanDN].[Stt] AS [Stt], 
+    [TaikhoanDN].[Masothue] AS [Masothue], 
+    [TaikhoanDN].[Matkhau] AS [Matkhau], 
+    [TaikhoanDN].[TenDN] AS [TenDN], 
+    [TaikhoanDN].[SoHopDong] AS [SoHopDong], 
+    [TaikhoanDN].[NgayKy] AS [NgayKy], 
+    [TaikhoanDN].[GoiHoaDon] AS [GoiHoaDon], 
+    [TaikhoanDN].[KyHieu] AS [KyHieu], 
+    [TaikhoanDN].[GhiChu] AS [GhiChu]
+    FROM [dbo].[TaikhoanDN] AS [TaikhoanDN]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Nhatkynhapkho_DanhmucNCC" Association="Self.FK_Nhatkynhapkho_DanhmucNCC">
+      <End Role="DanhmucNCC" EntitySet="DanhmucNCC" />
+      <End Role="Nhatkynhapkho" EntitySet="Nhatkynhapkho" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
