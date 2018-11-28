@@ -1,7 +1,10 @@
-﻿namespace LookupInvoice.Domain.Infrastructure.Abstract
+﻿using System;
+
+namespace LookupInvoice.Domain.Infrastructure.Abstract
 {
-    public interface IDbFactory
-    {
-        Entities Init();
-    }
+    public interface IDbFactory : IDisposable
+	{
+		// Entities Init();
+		int SaveChanges();
+	}
 }

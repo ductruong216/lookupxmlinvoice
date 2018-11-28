@@ -1,46 +1,46 @@
-﻿using System;
+﻿using LookupInvoice.Domain.DataContext;
 using LookupInvoice.Domain.Infrastructure.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 
 namespace LookupInvoice.Domain.Infrastructure.Implementation
 {
-    public class BaseRepository<T> : IRepository<T> where T : class
-    {
-        private Entities _dbContext;
-        private readonly IDbSet<T> _dbSet;
-        public IDbSet<T> DbSet => _dbSet;
-        protected IDbFactory DbFactory { get; set; }
+	public class BaseRepository<T> : IRepository<T> where T : class
+	{
+		private Entities _dbContext;
 
-        protected Entities DbContext
-        {
-            get { return _dbContext ?? (_dbContext = DbFactory.Init()); }
-        }
+		protected readonly DbSet<T> _dbSet;
+		public DbSet<T> DbSet => _dbSet;
 
-        public BaseRepository()
-        {
-            DbFactory = new DbFactory();
-            _dbSet = DbContext.Set<T>();
-        }
+		public IDbFactory DbFactory
+		{
+			get => _dbContext;
+			set => _dbContext = (Entities)value;
+		}
 
-        public IList<T> GetAll()
-        {
+		public BaseRepository(IDbFactory dbFactory)
+		{
+			_dbContext = dbFactory as Entities;
+			_dbSet = _dbContext.Set<T>();
+		}
 
-            try
-            {
-                return _dbSet.ToList();
+		public IList<T> GetAll()
+		{
+			try
+			{
+				return _dbSet.ToList();
+			}
+			catch (Exception e)
+			{
+				throw e;
+			}
+		}
 
-            }
-            catch (Exception e)
-            {
-                throw e;
-            }
-        }
-
-        public T GetSingleById(object id)
-        {
-            return _dbSet.Find(id);
-        }
-    }
+		public T GetSingleById(object id)
+		{
+			return _dbSet.Find(id);
+		}
+	}
 }

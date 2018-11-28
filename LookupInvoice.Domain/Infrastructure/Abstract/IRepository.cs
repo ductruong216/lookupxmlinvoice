@@ -3,12 +3,12 @@ using System.Data.Entity;
 
 namespace LookupInvoice.Domain.Infrastructure.Abstract
 {
-    public interface IRepository<T> where T : class
-    {
-        IDbSet<T> DbSet { get; }
-        IList<T> GetAll();
+	public interface IRepository<T> where T : class
+	{
+		IDbFactory DbFactory { get; set; }
+		DbSet<T> DbSet { get; }
+		IList<T> GetAll();
 
-        T GetSingleById(object id);
-
-    }
+		T GetSingleById(object id);
+	}
 }

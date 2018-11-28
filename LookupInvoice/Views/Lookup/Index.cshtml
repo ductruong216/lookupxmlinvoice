@@ -9,7 +9,7 @@
     <form style="margin-top: 10%">
         <div class="form-group">
             <label>Mã số thuế</label>
-            <input class="form-control">
+            <input id="ma_so_thue"class="form-control">
       
         </div>
         <div class="form-group">
@@ -38,7 +38,7 @@
                 url: "/Lookup/GetInvoice",
                 type: "POST",
                 dataType: "json",
-                data: { maBaoMat: $("#ma_tra_cuu").val() },
+				data: { maBaoMat: $("#ma_tra_cuu").val(), maSoThue: $("#ma_so_thue").val() },
                 success: function (result) {
                 
                     window.location.href = result.redirectToUrl;
