@@ -129,9 +129,6 @@
     <Compile Include="DanhmucNCC.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="DataContext\IDataContext.cs" />
-    <Compile Include="DataContext\IDataContextAsync.cs" />
-    <Compile Include="DataContext\StateHelper.cs" />
     <Compile Include="DulieuHoadon.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -148,10 +145,8 @@
     <Compile Include="Infrastructure\Abstract\IObjectState.cs" />
     <Compile Include="Infrastructure\Abstract\IRepository.cs" />
     <Compile Include="Infrastructure\Implementation\BaseRepository.cs" />
-    <Compile Include="Infrastructure\Implementation\DataContext.cs" />
     <Compile Include="Infrastructure\Implementation\DbFactory.cs" />
     <Compile Include="Infrastructure\Implementation\ObjectState.cs" />
-    <Compile Include="Infrastructure\Implementation\InvoiceRepository.cs" />
     <Compile Include="LichsuTBPH.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

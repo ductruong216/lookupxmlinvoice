@@ -1,5 +1,4 @@
-﻿using LookupInvoice.Domain.DataContext;
-using LookupInvoice.Domain.Infrastructure.Abstract;
+﻿using LookupInvoice.Domain.Infrastructure.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

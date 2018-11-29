@@ -38,7 +38,7 @@
                 url: "/Lookup/GetInvoice",
                 type: "POST",
                 dataType: "json",
-				data: { maBaoMat: $("#ma_tra_cuu").val(), maSoThue: $("#ma_so_thue").val() },
+				data: { maBaoMat: $("#ma_tra_cuu").val().trim(), maSoThue: $("#ma_so_thue").val().trim() },
                 success: function (result) {
                 
                     window.location.href = result.redirectToUrl;
